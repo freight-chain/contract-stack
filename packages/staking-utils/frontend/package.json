@@ -1,0 +1,14 @@
+{
+  "name": "freight-trust-staker-info-frontend",
+  "version": "1.3.0",
+  "description": "A dApp on the FreightTrust Opera network to browse information about its validators.",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SEE LICENSE",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

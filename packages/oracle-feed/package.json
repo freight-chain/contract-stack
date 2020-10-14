@@ -1,0 +1,11 @@
+{
+  "name": "@fr8/oracle-feed-base",
+  "version": "0.1.0",
+  "description": "The repository contains Solidity smart contract implementing simplified price feeds oracle for FreightTrust Opera network.",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0"
+}

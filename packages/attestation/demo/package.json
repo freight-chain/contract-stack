@@ -1,0 +1,23 @@
+{
+  "name": "@fr8/demo-attestation-service",
+  "version": "1.0.0",
+  "description": "Demo of Baseline Attestaation smart contract interaction.",
+  "main": "index.js",
+  "author": "Freight Trust and Clearing ",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ethereumjs-common": "^1.5.1",
+    "ethereumjs-tx": "^2.1.2",
+    "web3": "^1.2.8",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5"
+  },
+  "scripts": {
+    "clean": "bash ./tools/clean.sh",
+    "build": "bash ./tools/build.sh",
+    "start": "npm run clean >/dev/null 2>&1 && npm run build > /dev/null 2>&1 && node build/index.js"
+  }
+}

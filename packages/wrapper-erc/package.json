@@ -1,0 +1,26 @@
+{
+  "name": "freighttrust-fmint",
+  "version": "1.0.0",
+  "description": "FreightTrust DeFi implementation of fMint module.",
+  "main": "truffle-config.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freighttrust/FreightTrust-FMint.git"
+  },
+  "keywords": [
+    "FreightTrust",
+    "DeFi",
+    "fMint",
+    "Solidity"
+  ],
+  "author": "FreightTrust Foundation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freighttrust/FreightTrust-FMint/issues"
+  },
+  "homepage": "https://github.com/freighttrust/FreightTrust-FMint#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.1"
+  }
+}

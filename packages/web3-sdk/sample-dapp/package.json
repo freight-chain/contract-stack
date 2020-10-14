@@ -1,0 +1,19 @@
+{
+	"description": "N/A",
+	"repository": {},
+	"license": "Unlicense",
+	"dependencies": {
+		"@types/react": "16.9.5",
+		"@types/react-dom": "16.9.1",
+		"@zoltu/ethereum-browser-sdk": "file:../chain-sdk/lib",
+		"es-module-shims": "0.4.5",
+		"react": "16.10.2",
+		"react-dom": "16.10.2"
+	},
+	"scripts": {
+		"watch": "cd build && npx ts-node watch.ts",
+		"build": "cd build && npx ts-node build.ts",
+		"serve": "cd build && npx ts-node serve.ts",
+		"prepare": "cd build && npm install"
+	}
+}

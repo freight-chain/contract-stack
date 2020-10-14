@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "es2015",
+		"moduleResolution": "node",
+		"jsx": "react",
+		"outDir": "app/js",
+		"rootDir": "app/ts",
+		"sourceMap": true,
+		"inlineSources": true,
+		"strict": true,
+		"noEmitOnError": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"lib": ["dom", "esnext", "es2018.promise"],
+		"allowUmdGlobalAccess": true,
+		"experimentalDecorators": true
+	},
+	"include": ["app/ts/**/*.ts", "app/ts/**/*.tsx"]
+}

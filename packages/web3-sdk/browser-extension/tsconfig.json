@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"outDir": "app/js",
+		"rootDir": "app/ts",
+		"sourceMap": true,
+		"inlineSources": true,
+		"strict": true,
+		"noEmitOnError": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"lib": ["dom", "es2018", "esnext.bigint"]
+	},
+	"include": ["app/ts/**/*.ts"]
+}
